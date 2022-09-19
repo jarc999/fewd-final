@@ -1,0 +1,33 @@
+
+#navigation {display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: large;
+        font-weight: bolder;
+        font-style: normal;
+        color: blue;
+
+}
+
+h1 {text-align: center;
+    
+
+}
+.fixed {
+    position: fixed;
+    top: 100;
+    border: 4px; 
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.social { display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
