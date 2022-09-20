@@ -1,5 +1,23 @@
+body {
+    background-color: rgb(205, 206, 199);
+    }
+
 .social { 
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.HeaderNav {
+    display: flex;
+    width: calc(100%);
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200px;
+    border: 2px black solid;
+    padding:
+}
+
+.HeaderNav > H2 {
+    padding: 60px 550px;
 }
