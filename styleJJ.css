@@ -1,0 +1,44 @@
+
+body {
+background-color: rgb(205, 206, 199);
+}
+
+.HeaderNav {
+    display: flex;
+    width: calc(100%);
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 200px;
+    border: 2px black solid;
+    padding:
+}
+
+.HeaderNav > H2 {
+    padding: 60px 550px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(153,51,51);
+    width: calc(100%);
+}
+
+ li {
+    float: left;
+    }
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 200px; 
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+}
+
+.p1 {
+}
