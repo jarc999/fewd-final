@@ -1,5 +1,44 @@
-.social { 
+body {
+    background-color: rgb(205, 206, 199);
+}
+
+.navigation {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(16, 16, 67);
+    background-color: rgba(176, 66, 66, 0.862);
+    margin-top: 22px;
+}
+
+.logo {
+float: left;
+border: 5px black solid;
+position: absolute;
+top: -30;
+left: 0;
+}
+
+.social {
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+footer {
+background-color: rgb(255, 254, 253);
+}
+
+.bottom { 
+    background-color: rgb(255, 254, 253);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+header {
+    position: relative;
 }
