@@ -72,3 +72,17 @@ table, th, td {
     display: flex;
     gap: 75px;
 }
+
+#bottom { 
+    background-color: rgb(255, 254, 253);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.social { 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
