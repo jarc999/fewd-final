@@ -41,7 +41,8 @@ li a:hover {
     background-color: whitesmoke;
 }
 
-.p1 {
+p {
+    font-size: 150%;
 }
 
 table, th, td {
