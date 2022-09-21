@@ -1,0 +1,66 @@
+
+#navigation {display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: x-large;
+        font-weight: bolder;
+        font-style: normal;
+        color: rgb(16, 16, 67);
+        background-color: rgba(176, 66, 66, 0.862) ;
+        margin-top: 22px;
+}
+
+#logo {
+    float: left;
+    border: 5px black solid;
+    position: absolute;
+    top: -30;
+    left: 0;
+   }
+
+#header {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size:xx-large;
+    text-align: center;
+    
+}
+
+header {position: relative;
+
+}
+
+.fixed {
+    position: fixed;
+    top: 100;
+    border: 4px; 
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: left;
+}
+
+
+
+.social { display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#bottom { 
+    background-color: rgb(255, 254, 253);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
