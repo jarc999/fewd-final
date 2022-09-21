@@ -48,3 +48,17 @@ header {
     font-size: xx-large;
     text-align: center;
 }
+
+.happy {
+    text-align: center;
+    font-style: bold; 
+}
+
+.sad {
+    text-align: center;
+}
+
+a {
+    text-align:center;
+    display:block;
+}
