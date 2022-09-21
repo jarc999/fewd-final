@@ -10,7 +10,6 @@ background-color: rgb(205, 206, 199);
     flex-direction: row;
     height: 200px;
     border: 2px black solid;
-    padding:
 }
 
 .HeaderNav > H2 {
@@ -22,6 +21,8 @@ ul {
     overflow: hidden;
     background-color: rgb(153,51,51);
     width: calc(100%);
+    position: sticky;
+    top: 0;
 }
 
  li {
@@ -41,4 +42,26 @@ li a:hover {
 }
 
 .p1 {
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+  th, td {
+    padding: 7px;
+    margin: 7px;
+  }
+
+.tableleft {
+    float: left;
+}
+
+.schedules {
+    display: flex;
+   flex-wrap: wrap;
+   padding: 15px;
+   justify-content: space-between;
+   margin-left: 175px;
+   margin-right: 175px;
 }
