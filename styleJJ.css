@@ -13,7 +13,8 @@ background-color: rgb(205, 206, 199);
 }
 
 .HeaderNav > H2 {
-    padding: 60px 550px;
+    padding: 60px 800px;
+    position: absolute;
 }
 
 ul {
@@ -32,7 +33,7 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 15px 200px; 
+    padding: 15px 180px ; 
     text-decoration: none;
 }
 
@@ -40,7 +41,7 @@ li a:hover {
     background-color: whitesmoke;
 }
 
-p {
+.descbox > p {
     font-size: 150%;
 }
 
