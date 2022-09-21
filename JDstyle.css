@@ -2,7 +2,7 @@ body {
     background-color: rgb(205, 206, 199);
 }
 
-.navigation {
+#navigation {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -11,14 +11,14 @@ body {
     font-style: normal;
     color: rgb(16, 16, 67);
     background-color: rgba(176, 66, 66, 0.862);
-    margin-top: 22px;
+    margin-top: 75px;
 }
 
-.logo {
+#logo {
 float: left;
 border: 5px black solid;
 position: absolute;
-top: -30;
+top: 0;
 left: 0;
 }
 
@@ -41,4 +41,10 @@ background-color: rgb(255, 254, 253);
 
 header {
     position: relative;
+}
+
+#header {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
 }
