@@ -29,11 +29,10 @@ justify-content: space-around;
 }
 
 footer {
-background-color: rgb(255, 254, 253);
+background-color: rgb(205, 151, 114);
 }
 
-.bottom { 
-    background-color: rgb(255, 254, 253);
+#bottom { 
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
@@ -81,3 +80,4 @@ h5 {
     margin-right: auto;
     width: 50%;
 }
+
