@@ -22,12 +22,6 @@ background-color: rgb(205, 206, 199);
     text-align: center;
 }
 
-
-#header {
-    
-}
-
-
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -52,9 +46,6 @@ li a:hover {
     background-color: whitesmoke;
 }
 
-.descbox > p {
-    font-size: 150%;
-}
 
 table, th, td {
     border: 1px solid black;
@@ -64,10 +55,6 @@ table, th, td {
     padding: 7px;
     margin: 7px;
   }
-
-.tableleft {
-    float: left;
-}
 
 .schedules {
     display: flex;
@@ -85,6 +72,10 @@ table, th, td {
     gap: 75px;
 }
 
+.descbox > p {
+    font-size: 150%;
+}
+
 #bottom { 
     background-color: rgb(205, 151, 114);
     text-align: center;
@@ -96,7 +87,6 @@ table, th, td {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
 h2 {
