@@ -1,6 +1,7 @@
 
 body {
     background-color: rgb(205, 206, 199);
+    font-family: 'Kanit', sans-serif;
  }
 
 #navigation {display:flex;
