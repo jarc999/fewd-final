@@ -1,6 +1,8 @@
 
 body {
 background-color: rgb(205, 206, 199);
+font-family: 'Kanit', sans-serif;
+
 }
 
 .HeaderNav {
@@ -81,6 +83,8 @@ table, th, td {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .social { 
