@@ -1,0 +1,86 @@
+
+body {
+    background-color: rgb(205, 206, 199);
+ }
+
+#navigation {display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: xx-large;
+        font-weight: bolder;
+        font-style: normal;
+        color: rgb(16, 16, 67);
+        background-color: rgb(153,51,51) ;
+        margin-top: 75px;
+}
+
+#logo {
+    float: left;
+    border: 5px black solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+
+#header {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size:xx-large;
+    text-align: center;
+  
+}
+
+header {position: relative;
+
+}
+
+
+.fixed {
+    position: fixed;
+    top: 100;
+    border: 4px; 
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+ul {
+    list-style-image: url(compass.png);
+}
+
+li {
+    font-size: large;
+    text-decoration: underline;
+}
+
+iframe { margin-left: 100px;
+    border-color: darkblue;
+    border-width: 10px;
+
+}
+
+.social { display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#bottom { 
+    background-color: rgb(205, 151, 114);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
