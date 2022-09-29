@@ -1,0 +1,50 @@
+
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(192, 218, 229);
+}
+
+#navigation {display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: large;
+    font-weight: bolder;
+    font-style: normal;
+    color: rgb(42, 19, 85);
+    background-color: rgb(202, 134, 134) ;
+    margin-top: 75px;   
+}
+h1 {
+    text-align: center;
+    background-color: bisque;
+    padding: 100px;
+    opacity: 99%;
+}
+#logo {
+float: left;
+border: 5px black solid;
+position: absolute;
+top: 0;
+left: 0;
+}
+#header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size:xx-large;
+    text-align: center;
+    background-color: bisque;
+}
+.social { 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#bottom { 
+    background-color: rgb(205, 151, 114);;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
